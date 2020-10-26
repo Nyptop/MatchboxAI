@@ -22,7 +22,7 @@ def drawBoard(board):
 
 def playAgain(num):
     # This function returns True if the player wants to play again, otherwise it returns False.
-    return num<10000
+    return num<10001
 
 def makeMove(board, letter, move):
     board[move] = letter
